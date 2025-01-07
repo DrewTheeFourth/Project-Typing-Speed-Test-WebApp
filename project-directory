@@ -1,0 +1,10 @@
+typing-speed-test/
+├── docker-compose.yml
+├── frontend/
+│   ├── dockerfile
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+└── lambda/
+    ├── dockerfile
+    └── store-results.js
