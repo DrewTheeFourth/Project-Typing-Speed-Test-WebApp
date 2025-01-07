@@ -34,7 +34,7 @@ AWS Account (for deploying the backend)
 Installation
 Clone the repository:
 bash
-git clone https://github.com/yourusername/typing-speed-test.git
+git clone https://github.com/DrewTheeFourth/Project-Typing-Speed-Test-WebApp
 cd typing-speed-test
 Navigate to the frontend directory and install dependencies:
 bash
