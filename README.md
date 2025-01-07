@@ -20,35 +20,22 @@ AWS Account (for deploying the backend)
 Installation
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/DrewTheeFourth/Project-Typing-Speed-Test-WebApp.git
 cd typing-speed-test
 Navigate to the frontend directory and install dependencies:
 
-bash
-Copy code
 cd frontend
 Build the frontend Docker image:
-
-bash
-Copy code
 docker build -t typing-speed-test-frontend .
 Navigate to the lambda directory and install backend dependencies:
 
-bash
-Copy code
 cd ../lambda
 Build the backend Docker image:
 
-bash
-Copy code
 docker build -t typing-speed-test-backend .
 Running the Application
 Start both frontend and backend services using Docker Compose:
 
-bash
-Copy code
 docker-compose up --build
 Access the application in your browser at:
 http://localhost:8080
